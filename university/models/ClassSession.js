@@ -13,7 +13,7 @@ module.exports = {
     'name': {
       'type': 'string',
       'defaultsTo': function(){
-        return `${this.class.name} @ ${this.session.name}`;
+        return `Class #${this.class} @ session #${this.session}`;
       }
     }
   }
